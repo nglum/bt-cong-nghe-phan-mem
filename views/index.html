@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cửa Hàng Cà Phê - Sản Phẩm</title>
+    <link rel="stylesheet" href="../public/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>☕ Cửa Hàng Cà Phê</h1>
+        <a href="/admin" class="btn-admin">🔧 Quản Trị</a>
+    </header>
+
+    <main>
+        <div class="filters">
+            <input type="text" id="searchInput" placeholder="Tìm kiếm sản phẩm...">
+            <select id="categoryFilter">
+                <option value="">-- Tất cả danh mục --</option>
+            </select>
+        </div>
+
+        <div class="products-grid" id="productsContainer">
+            <!-- Products loaded by JavaScript -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Cửa Hàng Cà Phê. Tất cả quyền được bảo lưu.</p>
+    </footer>
+
+    <script src="../public/js/customer.js"></script>
+</body>
+</html>
